@@ -1,7 +1,8 @@
 td {
     border: 1px solid blue;
 }
-  
+
+/*as células ficam laranjas quando passamos o mouse sobre elas*/
 td:hover {
     background: orange;
 }
