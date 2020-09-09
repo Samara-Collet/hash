@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da Velha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="tictactoe.css">
 </head>
 <body>
+    <header>
+        <h1>Jogo da Velha</h1>
+    </header>
     <!--Vamos começar desenhando nosso tabuleiro. Precisaremos de uma tabela 3x3, então vamos criar o index.html e abri-lo no editor. Precisamos de 3 linhas com 3 células em cada uma, então vamos adicionar o seguinte:-->
     <table>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <!--Para que nosso Javascript saiba qual célula foi clicada, precisaremos identificar cada célula de alguma forma. Por enquanto, usaremos o atributo id dos elementos td para dar a cada célula um ID de 1 até 9.-->
+            <td id="1"></td>
+            <td id="2"></td>
+            <td id="3"></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id="4"></td>
+            <td id="5"></td>
+            <td id="6"></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td id="7"></td>
+            <td id="8"></td>
+            <td id="9"></td>
         </tr>
     </table>
 

@@ -1,0 +1,11 @@
+Próximos Passos
+Quer refinar seu jogo? Aqui vão algumas ideias.
+
+JavaScript:
+
+1. Impeça que os usuários selecionem a mesma célula mais de uma vez (do jeito que está agora, um jogador pode invadir a seleção de outro jogador).
+2. Exiba de quem é a vez.
+3. Registre a quantidade de vitórias de cada jogador (e a quantidade de empates).
+
+
+*TENTAR REFAZER A ATIVIDADE USANDO O LAYOUT DESENVOLVIDO NA ATIVIDADE DE CSS DO DIA 10/08
