@@ -32,7 +32,6 @@ td {
     height: 120px;
 }
 
-/*as células ficam laranjas quando passamos o mouse sobre elas*/
 td:hover {
     background: orange;
     cursor: pointer;
